@@ -593,14 +593,8 @@
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
-  .border-green-500 {
-    border-color: var(--color-green-500);
-  }
   .border-indigo-100 {
     border-color: var(--color-indigo-100);
-  }
-  .border-red-500 {
-    border-color: var(--color-red-500);
   }
   .border-white\/10 {
     border-color: color-mix(in srgb, #fff 10%, transparent);
@@ -626,9 +620,6 @@
   .bg-gray-300 {
     background-color: var(--color-gray-300);
   }
-  .bg-green-50 {
-    background-color: var(--color-green-50);
-  }
   .bg-green-500 {
     background-color: var(--color-green-500);
   }
@@ -652,9 +643,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-purple-500) 20%, transparent);
     }
-  }
-  .bg-red-50 {
-    background-color: var(--color-red-50);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -879,9 +867,6 @@
   .text-green-500 {
     color: var(--color-green-500);
   }
-  .text-green-800 {
-    color: var(--color-green-800);
-  }
   .text-indigo-700 {
     color: var(--color-indigo-700);
   }
@@ -905,9 +890,6 @@
   }
   .text-purple-700 {
     color: var(--color-purple-700);
-  }
-  .text-red-800 {
-    color: var(--color-red-800);
   }
   .text-teal-600 {
     color: var(--color-teal-600);
@@ -1056,9 +1038,6 @@
   @media (width >= 48rem) {
     .md\:h-\[280px\] {
       height: 280px;
-    }
-    .md\:grid-cols-2 {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .md\:flex-row {
       flex-direction: row;
